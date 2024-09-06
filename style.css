@@ -90,6 +90,9 @@ footer {
     list-style-type: none;
     padding: 0;
     margin-bottom: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
 }
 
 .social-links li {
