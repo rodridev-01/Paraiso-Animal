@@ -9,13 +9,14 @@ header {
 }
 
 nav {
+  background-color: #8bdcd0;
   display: flex;
   justify-content: space-between;
   padding: 30px 50px 0 300px;
 }
 
 .logo img {
-  width: 200px;
+  width: 150px;
 }
 
 .lista-nav {
