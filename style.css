@@ -79,4 +79,44 @@ nav {
   color: #08B8AB;
   margin-top: 50px;
 }
+footer {
+    background-color: #78d181;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline
+}
+
 >>>>>>> 0c187ca64ff1341bdd64610bea6824305194eb34
