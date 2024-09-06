@@ -7,6 +7,7 @@
     <link href="icons/Icon.ico" rel="icon">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -73,6 +74,29 @@
             </div>
         </div>
     </div>
+
+    <div id="contact" class="container mx-auto py-8 md:py-16">
+        <div class="text-center mb-8 md:mb-12">
+          <p class="text-yellow-500 uppercase font-medium">Contáctanos</p>
+          <h1 class="text-4xl md:text-5xl font-bold leading-tight">Si Tienes Alguna Pregunta, No Dudes en Contactarnos</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+          <div class="space-y-6 md:pr-8">
+            <p class="mb-6"><i class="fas fa-map-marker-alt text-yellow-500 mr-2"></i> Av. Arequipa 1234, Lima, Perú</p>
+            <p class="mb-6"><i class="fas fa-phone-alt text-yellow-500 mr-2"></i> (01) 3304428</p>
+            <p class="mb-6"><i class="fas fa-envelope text-yellow-500 mr-2"></i> contacto@paraiseanimal.com</p>
+          </div>
+          <form id="futForm" class="space-y-6 md:pl-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <input type="text" id="nombres" class="p-4 rounded-lg border border-gray-300" placeholder="Nombre">
+              <input type="email" id="correoElectronico" class="p-4 rounded-lg border border-gray-300" placeholder="Correo Electrónico">
+            </div>
+            <input type="text" id="solicitud" class="w-full p-4 rounded-lg border border-gray-300" placeholder="Asunto">
+            <textarea id="mensaje" class="w-full p-4 rounded-lg border border-gray-300" rows="6" placeholder="Mensaje"></textarea>
+            <button type="submit" class="w-full py-3 bg-yellow-500 text-black rounded-lg hover:bg-yellow-400">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>    
 
 </body>
 </html>
